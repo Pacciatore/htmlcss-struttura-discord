@@ -1,0 +1,23 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* UTILITIES */
+
+/* Flexbox */
+.flex {
+    display: flex;
+}
+
+/* Flex Column */
+.column {
+    flex-direction: column;
+}
+
+/* Flex Row */
+.row {
+    flex-direction: row;
+}
