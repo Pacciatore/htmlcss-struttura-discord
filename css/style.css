@@ -21,3 +21,61 @@
 .row {
     flex-direction: row;
 }
+
+/* CONTENT */
+
+
+/* Allinea qualsiasi contenuto al centro */
+body {
+    text-align: center;
+}
+
+/* Barra di navigazione superiore */
+nav {
+    background-color: #3161e0;
+    height: 50px;
+}
+
+/* Contenuto principale dell'header */
+.intro {
+    background-color: #698ef0;
+    height: 200px;
+}
+
+/* Ogni sezione composta da immagine e testo affiancati */
+.info-content {
+    background-color: white;
+    justify-content: space-around;
+}
+
+/* Didascalia immagine */
+.caption {
+    background-color: yellow;
+    height: 100px;
+    width: 75px;
+}
+
+/* Immagine descrittiva della sezione */
+.info-content img {
+    background-color: orange;
+    height: 100px;
+    width: 75px;
+}
+
+/* Ultima sezione del contenuto principale */
+.info-content.flex.column {
+    align-items: center;
+}
+
+/* Sfondo grigio alternato */
+.info-content:nth-child(even) {
+    background-color: #f6f6f6;
+}
+
+/* Sezione collegamenti fondo pagina */
+footer {
+    background-color: #23272a;
+    color: white;
+    justify-content: space-around;
+    height: 100px;
+}
